@@ -33,3 +33,15 @@ C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug
 C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.csproj.CoreCompileInputs.cache
 C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.exe
 C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.pdb
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\bin\Debug\Test serial.exe
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\bin\Debug\Test serial.pdb
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\obj\Debug\Test serial.csprojResolveAssemblyReference.cache
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\obj\Debug\Test_serial.Form1.resources
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\obj\Debug\Test_serial.Properties.Resources.resources
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\obj\Debug\Test serial.csproj.GenerateResource.Cache
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\obj\Debug\Test serial.csproj.CoreCompileInputs.cache
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\obj\Debug\Test serial.exe
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\obj\Debug\Test serial.pdb
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\bin\Debug\MetroFramework.Design.dll
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\bin\Debug\MetroFramework.dll
+C:\Users\JLINARES\Desktop\code\CPU-Serial-output-for-arduino\Sources\Test serial\bin\Debug\MetroFramework.Fonts.dll

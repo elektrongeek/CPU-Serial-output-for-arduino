@@ -1,4 +1,5 @@
 ﻿/* I stole this code from ElektronGeek, but i love him so it doesn't matter, also i made some improvements */
+/* I dont care that you stole my code , i love my Fox <3 */
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,6 +39,7 @@ namespace Test_serial
         private void Start_Click(object sender, EventArgs e)
         {
               Clock.Enabled = true;
+            // Check if serial port is open (to prevent errors)
             if (Output.Checked == true)
             {
                 //Opening serial port
@@ -45,14 +47,16 @@ namespace Test_serial
             }
 
         }
-
-        // Using a timer to send data (configurated in the design view (default value 500ms)
+            #region Collecting and processing some data
+        // Using a timer to read data and to send it over serial (configurated in the design view (default value 500ms)
         private void Timer1_Tick(object sender, EventArgs e)
         {
             long MaxRam = 4294967296 * 2;
 
-
+        // Collecting CPU load
             String CPU = "CPU : " + Math.Round(CPUCounter.NextValue(), 1).ToString() + "%";
+
+        // Collecting RAM load
                 Process[] processes = Process.GetProcesses();
                 long UsedRam = 0;
                 foreach (Process process in processes)
@@ -60,26 +64,41 @@ namespace Test_serial
                 UsedRam += process.WorkingSet64;
                 }
             String RAM = ("RAM : " + ((UsedRam*100)/MaxRam).ToString() + "%");
+
+        // Collecting Netbios Name
             String NetBios = Environment.MachineName;
+
+        // Collecting Build number
             String NTver  = Environment.OSVersion.ToString();
                 if (Equals(NTver.Substring(0, 9),"Microsoft")) NTver = NTver.Substring(18, NTver.Length-18);
+
+        // Collecting OS type
             String OS;
                 var name = (from x in new ManagementObjectSearcher("SELECT Caption FROM Win32_OperatingSystem").Get().Cast<ManagementObject>()
                 select x.GetPropertyValue("Caption")).FirstOrDefault();
                 OS = name != null ? name.ToString() : "Unknown";
                 if (Equals(OS.Substring(0, 9), "Microsoft")) OS = OS.Substring(10, OS.Length - 10);
-            String User = Environment.UserName;
-            String UpTime = "Uptime : " + TimeSpan.FromMilliseconds(Environment.TickCount).ToString(@"dd\:hh\:mm\:ss");
 
-           
+        // Collecting Username
+            String User = Environment.UserName;
+
+        // Collecting Uptime
+            String UpTime = "Uptime : " + TimeSpan.FromMilliseconds(Environment.TickCount).ToString(@"dd\:hh\:mm\:ss");
+#endregion
+
+            // Updating user interface 
+            #region User Interface Display
             Cpu_USAGE.Text = CPU;
-            label2.Text = OS;
-            label1.Text = NetBios;
-            label3.Text = NTver;
-            label4.Text = UpTime;
-            label5.Text = RAM;
-            label6.Text = User;
-            //Sending data over the port
+            Os_Type.Text = OS;
+            Netbios_Name.Text = NetBios;
+            Os_Version.Text = NTver;
+            Machine_Uptime.Text = UpTime;
+            Ram_USAGE.Text = RAM;
+            Username.Text = User;
+            #endregion
+
+            //Sending data over Serial port
+            #region Sending Data
             if (Output.Checked == true)
             {
                 if (Portserie.IsOpen == true)
@@ -108,6 +127,8 @@ namespace Test_serial
                     Portserie.Open();
                 }
             }
+
+#endregion
         }
     }
 }
