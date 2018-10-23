@@ -15,3 +15,21 @@ C:\Users\Jérémy\Desktop\Test serial\Test serial\obj\Debug\Test serial.csproj.G
 C:\Users\Jérémy\Desktop\Test serial\Test serial\obj\Debug\Test serial.csproj.CoreCompileInputs.cache
 C:\Users\Jérémy\Desktop\Test serial\Test serial\obj\Debug\Test serial.exe
 C:\Users\Jérémy\Desktop\Test serial\Test serial\obj\Debug\Test serial.pdb
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\bin\Debug\Test serial.exe
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\bin\Debug\Test serial.pdb
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\obj\Debug\Test serial.csprojAssemblyReference.cache
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\obj\Debug\Test_serial.Form1.resources
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\obj\Debug\Test_serial.Properties.Resources.resources
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\obj\Debug\Test serial.csproj.GenerateResource.cache
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\obj\Debug\Test serial.csproj.CoreCompileInputs.cache
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\obj\Debug\Test serial.exe
+C:\Users\Lisica\Desktop\CPU-Serial-output-for-arduino-master\Sources\Test serial\obj\Debug\Test serial.pdb
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\bin\Debug\Test serial.exe
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\bin\Debug\Test serial.pdb
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.csprojAssemblyReference.cache
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test_serial.Form1.resources
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test_serial.Properties.Resources.resources
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.csproj.GenerateResource.cache
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.csproj.CoreCompileInputs.cache
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.exe
+C:\Users\Lisica\Desktop\Dev\GIT\LCD-Status-display\Sources\Test serial\obj\Debug\Test serial.pdb
